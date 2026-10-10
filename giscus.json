@@ -1,12 +1,9 @@
 {
   "origins": [
-    "https://emilioborges.com",
-    "https://www.emilioborges.com"
+    "https://emilioborges.com"
   ],
   "originsRegex": [
-    "https://[A-Za-z0-9-]+-onprem-genai-strategy\\.[A-Za-z0-9-]+\\.workers\\.dev",
-    "https://onprem-genai-strategy\\.[A-Za-z0-9-]+\\.workers\\.dev",
-    "http://localhost:[0-9]+"
+    "^http://localhost:[0-9]+$"
   ],
   "defaultCommentOrder": "newest"
 }
